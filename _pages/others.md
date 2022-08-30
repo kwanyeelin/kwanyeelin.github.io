@@ -35,7 +35,7 @@ h3 {
 <h3>Teaching</h3>
 <div>
     <ul>
-        <li>2016, Spring. Introduction to Computer Science (C/C++ language), PKU</a>, ECCV 2020</li>
+        <li>2016, Spring. Introduction to Computer Science (C/C++ language), PKU</li>
         <li>2016, Autumn. Advanced Mathematics, PKU</li>
         <li>2017, Spring. Probability and Statistics, PKU</li>
         <li>2017, Spring. Deep learning: Algorithms and Applications, PKU</li>
