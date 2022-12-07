@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-07-01 12:00:00-0000
+date: 2022-09-29 12:00:00-0000
 inline: true
 ---
 
-**2** papers with **1** oral presentations got accepted by CVPR 2022.
+We are starting <a href="https://openxdlab.org.cn/home">OpenXDLab</a>, a new large-scale open-source project for datasets of XR research! &#128293;

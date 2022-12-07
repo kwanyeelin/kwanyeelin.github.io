@@ -34,8 +34,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 <!-- <p>Hey, thanks for stopping by! &#128516;</p> -->
 
 
-I am the Director of R&D at IAG of SenseTime Group Inc., working with [Chen Qian](http://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=zh-CN). I lead the development and research of 3D Perceiving R&D Centre, which serves for several leading automakers (e.g., BMW, Honda and NIO) and has delivered 20+ mass-produced projects in the intelligent cabin industry.
+I am the Director of R&D at Intelligent Automotive Group of SenseTime Group Inc., working with [Chen Qian](http://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=zh-CN). I lead the development and research of 3D Perceiving R&D Centre, which serves for several leading automakers (e.g., BMW, Honda and NIO) and has delivered 30+ mass-produced projects in the intelligent cabin industry.
 
-I was a post-doc researcher at [MMLab](http://mmlab.ie.cuhk.edu.hk/), [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), with Prof. [Hongsheng li](http://www.ee.cuhk.edu.hk/~hsli/) and [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/). Previously, I received my PhD degree in the Department of Information Science, School of Mathematical Sciences at [Peking University](https://english.pku.edu.cn/).
+I spent wonderful times as a post-doc researcher at [MMLab](http://mmlab.ie.cuhk.edu.hk/), [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), with Prof. [Hongsheng Li](http://www.ee.cuhk.edu.hk/~hsli/) and Prof. [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/). Previously, I received my PhD degree in the Department of Information Science, School of Mathematical Sciences at [Peking University](https://english.pku.edu.cn/).
 
 My research interests include **Computer Vision**, **Computer Graphics** and **XR**. I am particularly interested in 3d scene understanding, deep generative models, neural rendering and animation.
+
+** **Joint programs of PhD, PostDoc, RA at NTU and CUHK are open!** **
