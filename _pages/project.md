@@ -2,7 +2,7 @@
 layout: page
 title: Project
 permalink: /project/
-description: I am interested in the application of 3D technique in industry. In <a href='https://www.sensetime.com/en'>SenseTime Group Inc.</a>, I lead the research and development of 3D Perceiving Platform in SenseCabin. Previously, I led the research and development of 3D Content Generation Platform in SenseMARS.
+description: I am interested in the application of 3D technique in industry. During the past years,  I led the research and development of 3D Perceiving Platform in industry. Based on the platform, we delivered 30+ mass-produced projects for commercial uses.
 nav: true
 nav_order: 3
 display_categories: []

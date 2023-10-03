@@ -7,4 +7,3 @@ redirect: https://renderme-360.github.io/
 importance: 98
 category: human dataset
 ---
-

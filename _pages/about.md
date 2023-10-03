@@ -35,13 +35,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 <!-- <p>Hey, thanks for stopping by! &#128516;</p> -->
 
 
-I am currently a Research Scientist at [Shanghai AI Laboratory](https://www.shlab.org.cn/). I have been a post-doc researcher at [MMLab](http://mmlab.ie.cuhk.edu.hk/), The Chinese University of Hong Kong, working with Prof. [Hongsheng Li](http://www.ee.cuhk.edu.hk/~hsli/) and Prof. [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/). Previously, I was the Director of R&D at Intelligent Automotive Group of [SenseTime Group Inc.](https://www.sensetime.com/en), working with [Chen Qian](http://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=zh-CN). During my time at SenseTime, I led the development and research of 3D Perceiving R&D Centre, which served for several leading automakers (e.g., BMW, Honda and NIO) and had delivered 30+ mass-produced projects in the intelligent cabin industry. I received my PhD degree in the Department of Information Science, School of Mathematical Sciences at [Peking University](https://english.pku.edu.cn/).
+I am an incoming Research Fellow at University of Michigan, Ann Arbor, working with [Stella Yu](https://web.eecs.umich.edu/~stellayu/). Previously, I was a Postdoctoral Researcher in MMLab at The Chinese University of Hong Kong, working with [Xiaogang Wang](https://www.ee.cuhk.edu.hk/~xgwang/) and [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). I received my PhD in the Department of Information Science, School of Mathematical Sciences at Peking University.
 
-My research interests lie at the intersection of **Computer Vision**, **Computer Graphics**, and **Machine Learning**. I am particularly interested in 3d scene understanding, high-fidelity digital human, and 3D content creation.
- 
-** **Joint programs of PhD, RA at NTU and CUHK are open!** **
+My research interests lie at the intersection of Computer Vision, Computer Graphics, and Machine Learning. I am particularly interested in virtual humans and human-centric 3d scene understanding.
 
-** **Job positions are open for researchers and interns at Shanghai AI Lab!** **
+
+<!-- ** **Joint programs of PhD, RA at NTU and CUHK are open!** **
+
+** **Job positions are open for researchers and interns at Shanghai AI Lab!** ** -->
 
 
 

@@ -26,7 +26,7 @@ h3 {
 <h3>Academic Services</h3>
 <div>
     <ul>
-        <li>Reviewer of CVPR, ICCV, ECCV, AAAI, BMVC, TIP</li>
+        <li>Reviewer of CVPR, ICCV, ECCV, SIGGPAGH Asia, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
     </ul>    
 </div>
 
