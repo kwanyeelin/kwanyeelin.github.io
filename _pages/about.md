@@ -35,7 +35,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 <!-- <p>Hey, thanks for stopping by! &#128516;</p> -->
 
 
-I am an incoming Research Fellow at University of Michigan, Ann Arbor, working with [Stella Yu](https://web.eecs.umich.edu/~stellayu/). Previously, I was a Postdoctoral Researcher in MMLab at The Chinese University of Hong Kong, working with [Xiaogang Wang](https://www.ee.cuhk.edu.hk/~xgwang/) and [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). I received my PhD in the Department of Information Science, School of Mathematical Sciences at Peking University.
+I am a Research Fellow at University of Michigan, Ann Arbor, working with [Stella Yu](https://web.eecs.umich.edu/~stellayu/). Previously, I was a Postdoctoral Researcher in MMLab at The Chinese University of Hong Kong, working with [Xiaogang Wang](https://www.ee.cuhk.edu.hk/~xgwang/) and [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). I received my PhD in the Department of Information Science, School of Mathematical Sciences at Peking University.
 
 My research interests lie at the intersection of Computer Vision, Computer Graphics, and Machine Learning. I am particularly interested in virtual humans and human-centric 3d scene understanding.
 
