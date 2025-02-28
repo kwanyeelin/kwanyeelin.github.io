@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Kwan-Yee (Jun-Yi) Lin # the website title (if blank, full name will be used instead)
+title: Kwan-Yee Lin # the website title (if blank, full name will be used instead)
 first_name: Kwan-Yee
-middle_name: (Jun-Yi)
+middle_name:
 last_name: Lin
 email: linjunyi9335@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 description: This page lists some representative works in the fields of <b>human-centric</b> and <b>scene-centric</b> understanding and generation.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [human-centric, scene-centric]
 horizontal: false
