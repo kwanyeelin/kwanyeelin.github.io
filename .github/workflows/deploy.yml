@@ -34,6 +34,12 @@ jobs:
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
+    - name: Install and Build
+      run: |
+        sudo apt-get update && sudo apt-get install -y imagemagick
+        pip3 install --upgrade nbconvert
+        export JEKYLL_ENV=production
+        bundle exec jekyll build
     - name: Setup deploy options
       id: setup
       run: |
