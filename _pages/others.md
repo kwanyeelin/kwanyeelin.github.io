@@ -23,34 +23,43 @@ h3 {
 </head>
 
 
-<h3>Academic Services</h3>
+
+
+<h3>Workshops</h3>
 <div>
     <ul>
-        <li>Reviewer of CVPR, ICCV, ECCV, SIGGPAGH Asia, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
+        <li>Organizer of the 2nd POETS Workshop on Embodied Humans – Symbiotic Intelligence Between Virtual Humans and Humanoid Robots, CVPR 2025</li>
+        <li>Organizer of the 1st POETS <a href="https://poets2024.github.io/">Workshop on Virtual Humans for Robotics and Autonomous Driving</a>, CVPR 2024</li>
     </ul>    
 </div>
-
 
 
 <h3>Teaching</h3>
 <div>
     <ul>
-        <li>2016, Spring. Introduction to Computer Science (C/C++ language), PKU</li>
-        <li>2016, Autumn. Advanced Mathematics, PKU</li>
-        <li>2017, Spring. Probability and Statistics, PKU</li>
-        <li>2017, Spring. Deep learning: Algorithms and Applications, PKU</li>
+        <li>Guest Instructor, EECS 598: Action and Perception, UMich, Winter 2024</li>
+        <li>Teaching Assitant, Introduction to Computer Science (C/C++ language), PKU, Spring 2016 </li>
+        <li>Teaching Assitant, Probability and Statistics, PKU, Spring 2017</li>
+        <li>Teaching Assitant, Deep learning: Algorithms and Applications, PKU, Spring 2017</li>
     </ul>    
 </div>
 
 
 
-<h3>Awards</h3>
+<h3>Selected Honors</h3>
 <div>
     <ul>
 		<li>President Scholarship, 2018</li>
 		<li>Excellent Academic Performance Award, 2018</li>
 		<li>Excellent Undergraduate Student, 2015</li>
     </ul>
+</div>
+
+<h3>Academic Services</h3>
+<div>
+    <ul>
+        <li>Reviewer of CVPR, ICCV, ECCV, SIGGPAGH Asia, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
+    </ul>    
 </div>
 
 
