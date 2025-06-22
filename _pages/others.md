@@ -28,7 +28,7 @@ h3 {
 <h3>Workshops</h3>
 <div>
     <ul>
-        <li>Organizer of the 2nd POETS Workshop on Embodied Humans – Symbiotic Intelligence Between Virtual Humans and Humanoid Robots, CVPR 2025</li>
+        <li>Organizer of <a href="https://poets2024.github.io/poets2025/">Workshop on Embodied “Humans”: Symbiotic Intelligence Between Virtual Humans and Humanoid Robots</a>, CVPR 2025</li>
         <li>Organizer of the 1st POETS <a href="https://poets2024.github.io/">Workshop on Virtual Humans for Robotics and Autonomous Driving</a>, CVPR 2024</li>
     </ul>    
 </div>
@@ -58,7 +58,8 @@ h3 {
 <h3>Academic Services</h3>
 <div>
     <ul>
-        <li>Reviewer of CVPR, ICCV, ECCV, SIGGPAGH Asia, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
+        <li>Area chair of 3DV 2026</li>
+        <li>Reviewer of CVPR, ICCV, ECCV, CoRL, SIGGPAGH Asia, ICLR, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
     </ul>    
 </div>
 
