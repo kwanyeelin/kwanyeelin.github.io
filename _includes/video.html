@@ -1,4 +1,6 @@
 {%- assign video_path = include.path -%}
+{%- assign video_name = video_path | split: '/' | last | split: '.' | first -%}
+{%- assign poster_path = 'assets/img/publication/' | append: video_name | append: '.png' -%}
 
 <figure>
   <div class="video-container">
@@ -8,11 +10,12 @@
       {% if include.autoplay %}autoplay{% endif %}
       {% if include.loop %}loop{% endif %}
       {% if include.muted %}muted{% endif %}
-      {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
+      poster="{{ poster_path | relative_url }}"
       {% if include.width %}width="{{ include.width }}"{% endif %}
       {% if include.height %}height="{{ include.height }}"{% endif %}
       preload="metadata"
       playsinline
+      webkit-playsinline
       onmouseover="this.controls=true"
       onmouseout="this.controls=false"
     >
@@ -57,4 +60,130 @@
   background-color: rgba(0,0,0,0.5);
 }
 
+/* Chrome-specific fixes for gray mask */
+.video-container video::-webkit-media-controls-panel {
+  background-color: transparent;
+}
+
+.video-container video::-webkit-media-controls-play-button {
+  background-color: transparent;
+}
+
+.video-container video::-webkit-media-controls-timeline {
+  background-color: transparent;
+}
+
+/* Force Chrome to show video content properly */
+.video-container video {
+  background-color: #000 !important;
+  background-image: none !important;
+  object-fit: cover;
+  /* Force Chrome to render video properly */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Remove ALL Chrome default styling */
+.video-container video::-webkit-media-controls {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-panel {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-overlay-play-button {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-start-playback-button {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-enclosure {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-fullscreen-button {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-timeline {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-volume-slider {
+  background-color: transparent !important;
+}
+
+.video-container video::-webkit-media-controls-mute-button {
+  background-color: transparent !important;
+}
+
+/* Force poster to be visible */
+.video-container video[poster] {
+  background-color: #000 !important;
+  background-image: none !important;
+}
+
+/* Override any Chrome default video styling */
+.video-container video::-webkit-media-controls-container {
+  background-color: transparent !important;
+}
+
 </style>
+
+<script>
+// Aggressive Chrome gray mask fix
+document.addEventListener('DOMContentLoaded', function() {
+  const videos = document.querySelectorAll('.video-container video');
+  
+  videos.forEach(function(video) {
+    // Force immediate styling
+    video.style.backgroundColor = '#000';
+    video.style.backgroundImage = 'none';
+    
+    // Remove any Chrome default styling
+    video.style.webkitAppearance = 'none';
+    video.style.appearance = 'none';
+    
+    // Force poster to be visible
+    if (video.poster) {
+      video.style.backgroundImage = 'url(' + video.poster + ')';
+      video.style.backgroundSize = 'cover';
+      video.style.backgroundPosition = 'center';
+    }
+    
+    // Handle all video events to prevent gray mask
+    const events = ['loadstart', 'loadedmetadata', 'loadeddata', 'canplay', 'canplaythrough', 'progress'];
+    
+    events.forEach(function(eventName) {
+      video.addEventListener(eventName, function() {
+        this.style.backgroundColor = '#000';
+        this.style.backgroundImage = this.poster ? 'url(' + this.poster + ')' : 'none';
+      });
+    });
+    
+    // Force style on any interaction
+    video.addEventListener('click', function() {
+      this.style.backgroundColor = '#000';
+    });
+    
+    video.addEventListener('mouseenter', function() {
+      this.style.backgroundColor = '#000';
+    });
+    
+    // Use MutationObserver to catch any style changes
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+          video.style.backgroundColor = '#000';
+          video.style.backgroundImage = video.poster ? 'url(' + video.poster + ')' : 'none';
+        }
+      });
+    });
+    
+    observer.observe(video, { attributes: true, attributeFilter: ['style'] });
+  });
+});
+</script>
