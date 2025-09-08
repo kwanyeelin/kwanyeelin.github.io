@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "MMDetection3D Release"
 date: 2020-07-10 12:00:00-0000
 inline: true
 ---

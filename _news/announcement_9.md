@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "RenderMe-360 Accepted at NeuIPS 2023"
 date: 2023-09-29 12:00:00-0000
 inline: true
 ---

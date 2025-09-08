@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "POETS Workshop @ CVPR 2025"
 date: 2025-03-01 12:00:00-0000
 inline: true
 ---

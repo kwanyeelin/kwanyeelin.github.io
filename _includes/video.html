@@ -1,0 +1,60 @@
+{%- assign video_path = include.path -%}
+
+<figure>
+  <div class="video-container">
+    <video 
+      {% if include.class %}class="{{ include.class }}"{% endif %} 
+      {% if include.controls %}controls{% endif %}
+      {% if include.autoplay %}autoplay{% endif %}
+      {% if include.loop %}loop{% endif %}
+      {% if include.muted %}muted{% endif %}
+      {% if include.poster %}poster="{{ include.poster | relative_url }}"{% endif %}
+      {% if include.width %}width="{{ include.width }}"{% endif %}
+      {% if include.height %}height="{{ include.height }}"{% endif %}
+      preload="metadata"
+      playsinline
+      onmouseover="this.controls=true"
+      onmouseout="this.controls=false"
+    >
+      {%- assign video_ext = video_path | split: '.' | last | downcase -%}
+      {%- if video_ext == 'mp4' -%}
+        <source src="{{ video_path | relative_url }}" type="video/mp4">
+      {%- elsif video_ext == 'webm' -%}
+        <source src="{{ video_path | relative_url }}" type="video/webm">
+      {%- elsif video_ext == 'ogg' -%}
+        <source src="{{ video_path | relative_url }}" type="video/ogg">
+      {%- else -%}
+        <source src="{{ video_path | relative_url }}" type="video/mp4">
+      {%- endif -%}
+      <p>Your browser does not support the video tag. <a href="{{ video_path | relative_url }}">Download the video</a> instead.</p>
+    </video>
+  </div>
+  {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
+</figure>
+
+<style>
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.video-container video::-webkit-media-controls {
+  background-color: rgba(0,0,0,0.5);
+}
+
+</style>
