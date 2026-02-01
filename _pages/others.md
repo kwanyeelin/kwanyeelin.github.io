@@ -37,6 +37,7 @@ h3 {
 <h3>Teaching</h3>
 <div>
     <ul>
+        <li>Guest Instructor, EECS 542, Advanced Topics in Computer Vision, UMich, Winter 2026</li>
         <li>Guest Instructor, EECS 598: Action and Perception, UMich, Winter 2024</li>
         <li>Teaching Assitant, Introduction to Computer Science (C/C++ language), PKU, Spring 2016 </li>
         <li>Teaching Assitant, Probability and Statistics, PKU, Spring 2017</li>
@@ -59,7 +60,7 @@ h3 {
 <div>
     <ul>
         <li>Area chair of 3DV 2026</li>
-        <li>Reviewer of CVPR, ICCV, ECCV, CoRL, SIGGPAGH Asia, ICLR, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
+        <li>Reviewer of CVPR, ICCV, ECCV, CoRL, RSS, SIGGPAGH Asia, ICLR, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
     </ul>    
 </div>
 
