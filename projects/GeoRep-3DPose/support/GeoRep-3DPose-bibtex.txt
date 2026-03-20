@@ -1,0 +1,7 @@
+@inproceedings{kwantee2019weakly3dpose,
+ author = {Chen, Xipeng and Lin, Kwan-Yee and Liu, Wentao and Qian, Chen and Lin, Liang},
+ title = {Weakly-Supervised Discovery of Geometry-Aware Representation for 3D Human Pose Estimation},
+ booktitle = {CVPR},
+ month = June,
+ year = {2019}
+} 
