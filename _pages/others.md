@@ -61,7 +61,7 @@ h3 {
 <div>
     <ul>
         <li>Area chair of 3DV 2026</li>
-        <li>Reviewer of CVPR, ICCV, ECCV, CoRL, RSS, SIGGPAGH Asia, ICLR, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
+        <li>Reviewer of CVPR, ICCV, ECCV, CoRL, RSS, SIGGRAPH, SIGGRAPH Asia, ICLR, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
     </ul>    
 </div>
 
