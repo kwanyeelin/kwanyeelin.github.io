@@ -42,7 +42,7 @@ I am a Research Fellow in the EECS department at the University of Michigan, Ann
 <div class="research">
   <h2>Research</h2>
 
-  <p>My research interests lie at the intersection of Computer Vision, Computer Graphics, Robotics, and Machine Learning. My long-term goal is to build <strong>Realistic and Intelligent Virtual Humans</strong> -- embodied human-like systems that not only resemble humans,  but also emulate humans' remarkable cognitive and motor capabilities, enabling them to interact with the world with self-autonomy. I view and approach "Virtual Humans" from two complementary perspectives: (1) Virtual Avatars, which focus on digital representations of humans. (2) Humanoid Robots, which serve as the embodied carriers to connect perception to action in the physical world. My research has thus three themes:</p>
+  <p>My research interests lie at the intersection of Computer Vision, Computer Graphics, Robotics, and Machine Learning. My long-term goal is to build <strong>Realistic and Intelligent Virtual Humans</strong> -- embodied human-like systems that not only resemble humans,  but also emulate humans' remarkable cognitive and motor capabilities, enabling them to interact with the world with full-autonomy. I view and approach "Virtual Humans" from two complementary perspectives: (1) Virtual Avatars, which focus on digital representations of humans. (2) Humanoid Robots, which serve as the embodied carriers to connect perception to action in the physical world. My research has thus three themes:</p>
 
   <ul>
     <li><strong>Realistic Virtual Humans</strong>: Constructing high-fidelity 4D volumetric capture systems and datasets, as in <a href="https://dna-rendering.github.io/">DNA-Rendering</a> and <a href="https://renderme-360.github.io/">RenderMe-360</a>; modeling realistic human appearances and motions, as in <a href="https://yzmblog.github.io/projects/MonoHuman/">MonoHuman</a>, <a href="https://arxiv.org/abs/2105.02431">GAR</a>, and <a href="https://timewalker2024.github.io/timewalker.github.io/">TimeWalker</a>; learning context-aware behaviour generation, as in <a href="publication/">EmbodiedHuman</a>; and developing human foundation models to obtain generic representations, as in <a href="https://cosmicman-cvpr2024.github.io/">CosmicMan</a>.</li>
@@ -50,6 +50,8 @@ I am a Research Fellow in the EECS department at the University of Michigan, Ann
     <li><strong>Steerable Scene Constrution</strong>: Developing steerable scene modeling and simulation frameworks, as a playground, to potentially enhance perception, navigation, and interaction in complex environments, as in <a href="https://dnmp.github.io/">UrbanRF (DNMP)</a>, <a href="https://urbanarchitect.github.io/">UrbanArchitect</a>, and <a href="https://slr-sfs.github.io/">SLR-SFS</a>.</li>
   </ul>
 </div>
+
+{% include talks.html %}
 
 
 

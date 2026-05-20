@@ -2,7 +2,9 @@
 layout: page
 title: Industry
 permalink: /project/
-description: I am interested in the application of 3D technique in industry. During the years in industry,  I led the research and development of 3D Perceiving Platform in industry. Based on the platform, we delivered 30+ mass-produced projects for commercial uses.
+description: I am interested in applying 3D technologies to real-world industrial systems. During my years in industry, I served as Director of R&D at SenseTime, where I led the research and development of the 3D Perceiving Platform. Built on this platform, we delivered 30+ mass-produced projects for commercial applications.
+description_html: >
+  I am interested in applying 3D technologies to real-world industrial systems. During my years in industry, I served as Director of R&D at <a href="https://www.sensetime.com/en">SenseTime</a>, where I led the research and development of the 3D Perceiving Platform. Built on this platform, we delivered <strong>30+ mass-produced projects</strong> for commercial applications.
 nav: true
 nav_order: 3
 display_categories: []

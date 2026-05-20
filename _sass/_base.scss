@@ -188,7 +188,7 @@ article {
   margin-bottom: 2rem;
   font-size: 0.875rem;
   a {
-    color: inherit;
+    color: var(--global-theme-color);
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -655,8 +655,9 @@ html.transition *:after {
   }
 }
 
-/* Reduce line spacing in News section */
-.news {
+/* Reduce line spacing in News and talks sections */
+.news,
+.talks {
   table {
     border-collapse: collapse;
     margin-bottom: 0;
@@ -677,8 +678,9 @@ html.transition *:after {
   }
 }
 
-/* Style for date in news section */
-.news {
+/* Style for date in news and talks sections */
+.news,
+.talks {
   .date {
     white-space: nowrap;  /* Keep date on one line */
     padding-right: 0.5em !important;
@@ -687,7 +689,7 @@ html.transition *:after {
 
 /* Reset container padding */
 .container {
-  max-width: 1100px !important;
+  max-width: 1200px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
 }
@@ -698,7 +700,7 @@ html.transition *:after {
 .projects,
 .news,
 article {
-  max-width: 1100px !important;
+  max-width: 1200px !important;
   margin: 0 auto !important;
 }
 
@@ -719,12 +721,12 @@ p {
 }
 
 /* Add line before section titles */
-.research h2, .news h2, .publications h2 {
+.research h2, .talks h2, .news h2, .publications h2 {
   position: relative;
   padding-top: 0.5rem; /* Space above the title */
 }
 
-.research h2::before, .news h2::before, .publications h2::before {
+.research h2::before, .talks h2::before, .news h2::before, .publications h2::before {
   content: '';
   position: absolute;
   top: 0;
