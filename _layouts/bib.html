@@ -53,17 +53,21 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
+            {%- assign author_star = "" -%}
+            {%- if entry.equal == "true" and forloop.index <= 2 -%}
+              {%- assign author_star = "*" -%}
+            {%- endif -%}
             
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>
+                <em>{{author.first}} {{author.last}}{{author_star}}</em>
               {%- else -%}
-                {{author.first}} {{author.last}}
+                {{author.first}} {{author.last}}{{author_star}}
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
                 {% if author_is_self %}
-                  <em>{{author.first}} {{author.last}}</em>
+                  <em>{{author.first}} {{author.last}}{{author_star}}</em>
                   {%- if entry.ca == "true" %}
                     &#8224;,&nbsp;
                   {%- else -%}
@@ -71,19 +75,19 @@
                   {%- endif -%}
                 {%- else -%}
                   {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{{author_star}}</a>,&nbsp;
                   {%- else -%}
-                    {{author.first}} {{author.last}},&nbsp;
+                    {{author.first}} {{author.last}}{{author_star}},&nbsp;
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
                 {% if author_is_self -%}
-                  and <em>{{author.first}} {{author.last}}</em>
+                  and <em>{{author.first}} {{author.last}}{{author_star}}</em>
                 {% else -%}
                   {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{{author_star}}</a>
                   {% else -%}
-                    and {{author.first}} {{author.last}}
+                    and {{author.first}} {{author.last}}{{author_star}}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
