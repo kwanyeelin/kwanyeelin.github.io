@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Others/
-title: Others
+title: Misc
 description: 
 nav: true
 nav_order: 6
@@ -60,7 +60,8 @@ h3 {
 <h3>Academic Services</h3>
 <div>
     <ul>
-        <li>Area chair of 3DV 2026</li>
+        <li>Area chair of 3DV</li>
+        <li>Senior Program Committee of AAAI</li>
         <li>Reviewer of CVPR, ICCV, ECCV, CoRL, RSS, SIGGRAPH, SIGGRAPH Asia, ICLR, NeuIPS, AAAI, BMVC, TIP and TPAMI</li>
     </ul>    
 </div>
@@ -78,7 +79,6 @@ h3 {
 		<li>VentureBeat: <a href="https://venturebeat.com/2020/01/15/sensetime-face-forgery-research-deepfakes/">SenseTime Researchers Create a Benchmark to Test Face Forgery Detectors.</a> 2020</li>
     </ul>    
 </div> -->
-
 
 
 

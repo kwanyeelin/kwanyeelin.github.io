@@ -253,12 +253,12 @@ article {
     padding-top: 0;
     font-size: 1.7rem;
     a {
-      i::before {
+      i::before, .social-icon {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
-        i::before {
+        i::before, .social-icon {
           color: var(--global-theme-color);
         }
       }
@@ -305,15 +305,22 @@ article {
 
 .social {
   text-align: center;
+  .social-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: currentColor;
+  }
   .contact-icons {
     font-size: 4rem;
     a {
-      i::before {
+      i::before, .social-icon {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
-        i::before {
+        i::before, .social-icon {
           color: var(--global-theme-color);
         }
       }
@@ -687,9 +694,14 @@ html.transition *:after {
   }
 }
 
+/* Give the About page more room for long talk titles on desktop. */
+.about-page {
+  --page-max-width: 1300px;
+}
+
 /* Reset container padding */
 .container {
-  max-width: 1200px !important;
+  max-width: var(--page-max-width, 1200px) !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
 }
@@ -700,7 +712,7 @@ html.transition *:after {
 .projects,
 .news,
 article {
-  max-width: 1200px !important;
+  max-width: var(--page-max-width, 1200px) !important;
   margin: 0 auto !important;
 }
 
@@ -735,4 +747,3 @@ p {
   height: 1px;
   background-color: var(--global-divider-color);
 }
-
