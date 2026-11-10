@@ -51,6 +51,7 @@ h3 {
 <h3>Selected Honors</h3>
 <div>
     <ul>
+        <li>Outstanding Review, CVPR 2026</li>
 		<li>President Scholarship, 2018</li>
 		<li>Excellent Academic Performance Award, 2018</li>
 		<li>Excellent Undergraduate Student, 2015</li>
@@ -79,8 +80,6 @@ h3 {
 		<li>VentureBeat: <a href="https://venturebeat.com/2020/01/15/sensetime-face-forgery-research-deepfakes/">SenseTime Researchers Create a Benchmark to Test Face Forgery Detectors.</a> 2020</li>
     </ul>    
 </div> -->
-
-
 
 
 
